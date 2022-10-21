@@ -1,6 +1,7 @@
-rows = int(input("Enter number of rows: "))
-
-for i in range(rows):
-    for j in range(i+1):
-        print("* ", end="")
-    print("\n")
+a = eval(input("Please enter a number :"))
+for x in range(1):
+    print("%" * a)
+for x in range(1,a-1):
+    print("%"," " * (a-4),"%")
+for x in range(a - 1 , a):
+    print("%" * a)
